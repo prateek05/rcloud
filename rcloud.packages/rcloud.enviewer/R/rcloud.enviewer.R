@@ -9,7 +9,6 @@ rcloud.enviewer.view.dataframe <- function(expr)
 rcloud.enviewer.display.dataframe <- function(x)
   structure(list(command="view", object=x), class="data")
 
-
 rcloud.enviewer.display.value <- function(val) {
 is.POSIXobj <- function(POSIXobj)inherits(POSIXobj, "Date") || inherits(POSIXobj, "POSIXlt") || inherits(POSIXobj, "POSIXct") || inherits(POSIXobj, "POSIXt") 
 
@@ -36,6 +35,7 @@ get.value <- function(val){
                 else if (length(val) == 1) return(deparse(val))
                 else if (length(val) > 1) return(as.character(paste0(val,collapse=", ")))
             }
+            #Fall back to str()
             else return(paste(capture.output(str(val)), collapse=' '))
             }
 

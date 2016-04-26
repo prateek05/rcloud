@@ -1,11 +1,7 @@
-<div class="formatting">
-
 ---
 title: RCloud&#58; 1.5 What's New
 layout: default
 ---
-
-</div>
 
 <a name="top"></a>
 

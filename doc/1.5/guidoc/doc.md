@@ -8,11 +8,9 @@ layout: default
 </div>
 
 <a name="TOP"></a>
-<div class="formatting">
 
 # {{page.title}}
 
-</div>
 Created: 2015-10-14. RCloud documentation is currently maintained by <a target="_blank" href="http://www.spencerseidel.com">Spencer Seidel</a> on a voluntary basis.
 
 ## What's New
